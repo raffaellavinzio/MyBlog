@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>MyBlog - design system</title>
+    <meta name="description" content="MyBlog design system" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html" class="logo"><span>MyBlog</span></a>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="blog-post.html">blog post</a></li>
+        </ul>
+      </nav>
+
+      <form class="search-box">
+        <input type="search" placeholder="Search.." name="search" />
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </header>
+
+    <main class="container">
+      <h1 class="colors--3">design system</h1>
+
+      <section class="foundations">
+        <h2 class="colors--1">foundations</h2>
+        <h3>typography</h3>
+        <h1>heading 1</h1>
+        <h2>heading 2</h2>
+        <h3>heading 3</h3>
+        <p>This is a paragraph. Below is a list:</p>
+
+        <ul>
+          <li>
+            <strong>bold</strong>
+          </li>
+          <li>
+            <em>italic</em>
+          </li>
+          <li class="underlined">underlined</li>
+        </ul>
+
+        <span>this is a <a href="">link</a></span>
+
+        <blockquote cite="source">
+          and this is a quote.
+        </blockquote>
+
+        <h3>colors</h3>
+        <div class="colors--2 colors">rgb(200, 251, 137)</div>
+        <div class="colors--3 colors">rgba(41, 41, 41, 1)</div>
+        <div class="colors--4 colors">rgba(247, 250, 246, 1)</div>
+      </section>
+
+      <section class="components">
+        <h2 class="colors--1">components</h2>
+        <h3>search box</h3>
+
+        <form class="search-box">
+          <input type="search" placeholder="Search.." name="search" />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+
+        <h3>subscribe form</h3>
+
+        <form class="subscribe">
+          <label for="email">
+            email
+            <input id="email" type="email" required />
+          </label>
+
+          <button type="submit">subscribe</button>
+        </form>
+
+        <h3>card</h3>
+
+        <div class="card">
+          <img
+            class="card-img"
+            src="https://images.unsplash.com/photo-1523002010469-ea85cb48674b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+            alt="blue horizon"
+          />
+          <h3 class="card-title">blue horizon</h3>
+          <span class="card-info"><em>Category - Month day, YYYY</em></span>
+          <p class="card-text">
+            Download free, beautiful high-quality photos curated by Alessandra.
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <a class="card-btn" href="#">read more</a>
+        </div>
+
+        <h3>image with caption</h3>
+
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1523002010469-ea85cb48674b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+            alt="blue horizon"
+          />
+          <figcaption>
+            <em> Photo by Alessandra Caretto on Unsplash</em>
+          </figcaption>
+        </figure>
+
+        <h3>author info</h3>
+
+        <div class="author">
+          <img
+            src="https://images.unsplash.com/photo-1523002010469-ea85cb48674b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+            alt="avatar"
+            class="avatar"
+          />
+          <span class="name">author name</span>
+          <span class="title-company">title, company/school</span>
+          <span class="bio"
+            >short bio - Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.</span
+          >
+        </div>
+
+        <h3>social sharing</h3>
+
+        <div class="bg">
+          <div class="social">
+            <span>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+            </span>
+            <span>
+              <a href="#"><i class="fa fa-facebook"></i></a>
+            </span>
+            <span>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+            </span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Copyright © 2019 - Myblog - All rights reserved</span>
+
+      <div class="social">
+        <span>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </span>
+        <span>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+        </span>
+        <span>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>
