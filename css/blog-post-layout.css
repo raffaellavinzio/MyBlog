@@ -66,6 +66,10 @@
   .blog-post-container {
     width: 90%;
   }
+
+  .blog-post-aside-title {
+    color: rgba(41, 41, 41, 0.9);
+  }
 }
 
 @media only screen and (max-width: 500px) {
