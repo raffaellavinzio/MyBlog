@@ -3,7 +3,7 @@
   line-height: 10rem;
   text-align: center;
   border-radius: 100%;
-  width: 14rem;
+  width: 16rem;
   height: 10rem;
   display: inline-block;
   font-size: 1.4rem;
@@ -14,13 +14,13 @@
   background-color: rgba(200, 251, 137, 1);
 }
 
-.colors--3 {
-  background-color: rgba(41, 41, 41, 1);
-  color: rgba(247, 250, 246, 1);
+.colors--2 {
+  background-color: rgba(247, 250, 246, 1);
 }
 
 .colors--3 {
-  background-color: rgba(247, 250, 246, 1);
+  background-color: rgba(41, 41, 41, 0.9);
+  color: rgba(247, 250, 246, 1);
 }
 
 body {

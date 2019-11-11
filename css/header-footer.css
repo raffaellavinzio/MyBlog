@@ -17,7 +17,7 @@ header {
 
 .logo:hover {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(247, 250, 246, 0.9);
 }
 
 header ul {
@@ -32,8 +32,8 @@ header ul li a:visited {
 }
 
 header ul li a:hover {
-  color: rgba(255, 255, 255, 0.9);
-  text-decoration: 0.2rem underline solid rgba(255, 255, 255, 0.9);
+  color: rgba(247, 250, 246, 0.9);
+  text-decoration: 0.2rem underline solid rgba(247, 250, 246, 0.9);
 }
 
 /* footer */
